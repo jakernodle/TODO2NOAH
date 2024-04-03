@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		389BB7712BBDD9D1000BB864 /* TODO2POOApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389BB7702BBDD9D1000BB864 /* TODO2POOApp.swift */; };
-		389BB7732BBDD9D1000BB864 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389BB7722BBDD9D1000BB864 /* ContentView.swift */; };
+		389BB7732BBDD9D1000BB864 /* MainListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389BB7722BBDD9D1000BB864 /* MainListView.swift */; };
 		389BB7752BBDD9D3000BB864 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 389BB7742BBDD9D3000BB864 /* Assets.xcassets */; };
 		389BB7792BBDD9D3000BB864 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 389BB7782BBDD9D3000BB864 /* Preview Assets.xcassets */; };
 		389BB7832BBDD9D3000BB864 /* TODO2POOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389BB7822BBDD9D3000BB864 /* TODO2POOTests.swift */; };
 		389BB78D2BBDD9D3000BB864 /* TODO2POOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389BB78C2BBDD9D3000BB864 /* TODO2POOUITests.swift */; };
 		389BB78F2BBDD9D3000BB864 /* TODO2POOUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389BB78E2BBDD9D3000BB864 /* TODO2POOUITestsLaunchTests.swift */; };
+		389BB79E2BBDDA1D000BB864 /* TodoItemService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389BB79D2BBDDA1D000BB864 /* TodoItemService.swift */; };
+		389BB7A12BBDDA56000BB864 /* TODOItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389BB7A02BBDDA56000BB864 /* TODOItem.swift */; };
+		389BB7A32BBDDB3C000BB864 /* DefaultTodoItemService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389BB7A22BBDDB3C000BB864 /* DefaultTodoItemService.swift */; };
+		389BB7A52BBDDD86000BB864 /* PresentableTodoItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389BB7A42BBDDD86000BB864 /* PresentableTodoItems.swift */; };
+		389BB7A72BBDF3AA000BB864 /* AddListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389BB7A62BBDF3AA000BB864 /* AddListItemView.swift */; };
+		389BB7AB2BBE0B0E000BB864 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389BB7AA2BBE0B0E000BB864 /* UserDefaults.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +42,7 @@
 /* Begin PBXFileReference section */
 		389BB76D2BBDD9D1000BB864 /* TODO2POO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TODO2POO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		389BB7702BBDD9D1000BB864 /* TODO2POOApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODO2POOApp.swift; sourceTree = "<group>"; };
-		389BB7722BBDD9D1000BB864 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		389BB7722BBDD9D1000BB864 /* MainListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainListView.swift; sourceTree = "<group>"; };
 		389BB7742BBDD9D3000BB864 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		389BB7762BBDD9D3000BB864 /* TODO2POO.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TODO2POO.entitlements; sourceTree = "<group>"; };
 		389BB7782BBDD9D3000BB864 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -45,6 +51,12 @@
 		389BB7882BBDD9D3000BB864 /* TODO2POOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TODO2POOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		389BB78C2BBDD9D3000BB864 /* TODO2POOUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODO2POOUITests.swift; sourceTree = "<group>"; };
 		389BB78E2BBDD9D3000BB864 /* TODO2POOUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODO2POOUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		389BB79D2BBDDA1D000BB864 /* TodoItemService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoItemService.swift; sourceTree = "<group>"; };
+		389BB7A02BBDDA56000BB864 /* TODOItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODOItem.swift; sourceTree = "<group>"; };
+		389BB7A22BBDDB3C000BB864 /* DefaultTodoItemService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultTodoItemService.swift; sourceTree = "<group>"; };
+		389BB7A42BBDDD86000BB864 /* PresentableTodoItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentableTodoItems.swift; sourceTree = "<group>"; };
+		389BB7A62BBDF3AA000BB864 /* AddListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddListItemView.swift; sourceTree = "<group>"; };
+		389BB7AA2BBE0B0E000BB864 /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +107,10 @@
 		389BB76F2BBDD9D1000BB864 /* TODO2POO */ = {
 			isa = PBXGroup;
 			children = (
+				389BB7A82BBE0AF3000BB864 /* Common */,
+				389BB79C2BBDD9FC000BB864 /* Services */,
+				389BB79B2BBDD9E4000BB864 /* Views */,
 				389BB7702BBDD9D1000BB864 /* TODO2POOApp.swift */,
-				389BB7722BBDD9D1000BB864 /* ContentView.swift */,
 				389BB7742BBDD9D3000BB864 /* Assets.xcassets */,
 				389BB7762BBDD9D3000BB864 /* TODO2POO.entitlements */,
 				389BB7772BBDD9D3000BB864 /* Preview Content */,
@@ -127,6 +141,50 @@
 				389BB78E2BBDD9D3000BB864 /* TODO2POOUITestsLaunchTests.swift */,
 			);
 			path = TODO2POOUITests;
+			sourceTree = "<group>";
+		};
+		389BB79B2BBDD9E4000BB864 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				389BB79F2BBDDA3F000BB864 /* Models */,
+				389BB7722BBDD9D1000BB864 /* MainListView.swift */,
+				389BB7A62BBDF3AA000BB864 /* AddListItemView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		389BB79C2BBDD9FC000BB864 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				389BB79D2BBDDA1D000BB864 /* TodoItemService.swift */,
+				389BB7A22BBDDB3C000BB864 /* DefaultTodoItemService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		389BB79F2BBDDA3F000BB864 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				389BB7A02BBDDA56000BB864 /* TODOItem.swift */,
+				389BB7A42BBDDD86000BB864 /* PresentableTodoItems.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		389BB7A82BBE0AF3000BB864 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				389BB7A92BBE0AF9000BB864 /* Extensions */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		389BB7A92BBE0AF9000BB864 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				389BB7AA2BBE0B0E000BB864 /* UserDefaults.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +317,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				389BB7732BBDD9D1000BB864 /* ContentView.swift in Sources */,
+				389BB7732BBDD9D1000BB864 /* MainListView.swift in Sources */,
+				389BB79E2BBDDA1D000BB864 /* TodoItemService.swift in Sources */,
+				389BB7A32BBDDB3C000BB864 /* DefaultTodoItemService.swift in Sources */,
+				389BB7A12BBDDA56000BB864 /* TODOItem.swift in Sources */,
+				389BB7AB2BBE0B0E000BB864 /* UserDefaults.swift in Sources */,
+				389BB7A72BBDF3AA000BB864 /* AddListItemView.swift in Sources */,
+				389BB7A52BBDDD86000BB864 /* PresentableTodoItems.swift in Sources */,
 				389BB7712BBDD9D1000BB864 /* TODO2POOApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,7 +498,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.2;
@@ -472,7 +536,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.2;
